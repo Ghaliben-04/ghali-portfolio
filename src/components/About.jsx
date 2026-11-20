@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
-import { Cloud, Code2, Brain } from 'lucide-react'
+import { Cloud, Code2, Brain, Eye } from 'lucide-react'
+import { config } from '../data/config.js'
 import './About.css'
 
 function useReveal(ref) {
@@ -15,7 +16,7 @@ function useReveal(ref) {
   }, [ref])
 }
 
-export default function About({ t }) {
+export default function About({ t, lang }) {
   const headerRef  = useRef(null)
   const introRef   = useRef(null)
   const pillarsRef = useRef(null)
@@ -64,6 +65,17 @@ export default function About({ t }) {
         <div ref={introRef} className="about__intro reveal">
           <p className="about__lead">{about.description1}</p>
           <p className="about__body">{about.description3}</p>
+          <div className="about__cta">
+            <a
+              href={lang === 'fr' ? config.cvFr : config.cvEn}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline about__btn-cv"
+            >
+              <Eye size={16} />
+              {t.hero.cta.previewCV}
+            </a>
+          </div>
         </div>
 
         {/* ── Piliers ── */}

@@ -28,6 +28,17 @@
   text-align: center;
 }
 
+/* ── CTA Aperçu CV ── */
+.about__cta {
+  display: flex;
+  justify-content: center;
+}
+
+.about__btn-cv {
+  font-size: var(--text-sm);
+  padding: 0.6rem 1.4rem;
+}
+
 /* ── Piliers ── */
 .about__pillars {
   margin-bottom: 0;

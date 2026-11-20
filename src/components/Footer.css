@@ -12,17 +12,11 @@
   padding-bottom: var(--space-16);
 }
 
-/* Brand — logo supprimé */
+/* Brand */
 .footer__brand {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
-}
-
-.footer__logo,
-.footer__logo-mark,
-.footer__logo-name {
-  display: none;
 }
 
 .footer__tagline {
@@ -50,16 +44,11 @@
   transition: all var(--transition-base);
 }
 
-.footer__social:not(.footer__social--disabled):hover {
+.footer__social:hover {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-white);
   transform: translateY(-2px);
-}
-
-.footer__social--disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
 }
 
 /* Links */
@@ -99,7 +88,6 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
-  margin-bottom: var(--space-5);
 }
 
 .footer__contact-item {
@@ -111,52 +99,6 @@
 
 a.footer__contact-item:hover {
   color: var(--color-sky);
-}
-
-.footer__built {
-  font-size: var(--text-xs);
-  color: rgba(148, 163, 184, 0.5);
-  margin-top: auto;
-}
-
-/* Bottom bar */
-.footer__bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.07);
-}
-
-.footer__bottom-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: var(--space-5);
-  padding-bottom: var(--space-5);
-  gap: var(--space-4);
-}
-
-.footer__copyright {
-  font-size: var(--text-xs);
-  color: rgba(148, 163, 184, 0.6);
-}
-
-.footer__back-top {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-  font-size: var(--text-xs);
-  font-weight: 500;
-  color: var(--color-gray-light);
-  padding: 0.4rem 0.9rem;
-  border-radius: var(--radius-full);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: all var(--transition-base);
-  cursor: pointer;
-  background: transparent;
-}
-
-.footer__back-top:hover {
-  color: var(--color-white);
-  border-color: rgba(255, 255, 255, 0.3);
-  transform: translateY(-1px);
 }
 
 /* Responsive */
@@ -177,11 +119,5 @@ a.footer__contact-item:hover {
     gap: var(--space-8);
     padding-top: var(--space-10);
     padding-bottom: var(--space-10);
-  }
-
-  .footer__bottom-inner {
-    flex-direction: column;
-    text-align: center;
-    gap: var(--space-3);
   }
 }

@@ -31,6 +31,7 @@ const translations = {
       },
       cta: {
         downloadCV: 'Télécharger mon CV',
+        previewCV: 'Aperçu CV',
         projects: 'Voir mes projets',
         linkedin: 'LinkedIn',
         github: 'GitHub',
@@ -320,9 +321,6 @@ const translations = {
     // Footer
     footer: {
       tagline: 'Ingénieur passionné par le Cloud, le DevOps et le Software Engineering.',
-      rights: 'Tous droits réservés.',
-      builtWith: 'Construit avec React & Vite',
-      backToTop: 'Retour en haut',
       quickLinks: 'Navigation rapide',
     },
   },
@@ -359,6 +357,7 @@ const translations = {
       },
       cta: {
         downloadCV: 'Download my CV',
+        previewCV: 'CV Preview',
         projects: 'View my projects',
         linkedin: 'LinkedIn',
         github: 'GitHub',
@@ -648,9 +647,6 @@ const translations = {
     // Footer
     footer: {
       tagline: 'Engineer passionate about Cloud, DevOps and Software Engineering.',
-      rights: 'All rights reserved.',
-      builtWith: 'Built with React & Vite',
-      backToTop: 'Back to top',
       quickLinks: 'Quick links',
     },
   },

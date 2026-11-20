@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Download, ArrowDown, Linkedin, MapPin, Briefcase, GraduationCap } from 'lucide-react'
+import { Download, ArrowDown, Linkedin, MapPin, Briefcase, GraduationCap, Eye } from 'lucide-react'
 import { config } from '../data/config.js'
 import './Hero.css'
 
@@ -93,6 +93,15 @@ export default function Hero({ t, lang }) {
               <Download size={16} />
               {t.hero.cta.downloadCV}
             </button>
+            <a
+              href={lang === 'fr' ? config.cvFr : config.cvEn}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline hero__btn-cv-preview"
+            >
+              <Eye size={16} />
+              {t.hero.cta.previewCV}
+            </a>
             <button className="btn btn-outline" onClick={scrollToProjects}>
               {t.hero.cta.projects}
             </button>

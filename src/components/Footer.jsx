@@ -1,4 +1,4 @@
-import { Linkedin, ArrowUp } from 'lucide-react'
+import { Linkedin } from 'lucide-react'
 import { config } from '../data/config.js'
 import './Footer.css'
 
@@ -14,12 +14,6 @@ const navLinks = [
 ]
 
 export default function Footer({ t }) {
-  const year = new Date().getFullYear()
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
-
   const handleNavClick = (href) => {
     const id = href.replace('#', '')
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
@@ -66,23 +60,6 @@ export default function Footer({ t }) {
             </a>
             <span className="footer__contact-item">{config.location}</span>
           </div>
-          <div className="footer__built">
-            <span>{t.footer.builtWith}</span>
-          </div>
-        </div>
-      </div>
-
-      {/* Bottom bar */}
-      <div className="footer__bottom">
-        <div className="container footer__bottom-inner">
-          <span className="footer__copyright">
-            © {year} Ghali Benyahia. {t.footer.rights}
-          </span>
-          <button className="footer__back-top" onClick={scrollToTop}
-            aria-label={t.footer.backToTop}>
-            <ArrowUp size={14} />
-            {t.footer.backToTop}
-          </button>
         </div>
       </div>
     </footer>

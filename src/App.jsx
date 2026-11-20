@@ -32,7 +32,7 @@ export default function App() {
 
       <main id="main-content">
         <Hero t={t} lang={lang} />
-        <About t={t} />
+        <About t={t} lang={lang} />
         <Experience t={t} />
         <Projects t={t} />
         <Skills t={t} />
