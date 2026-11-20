@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <rect width="80" height="80" rx="12" fill="#232F3E"/>
+  <circle cx="40" cy="32" r="14" fill="none" stroke="#FF9900" stroke-width="2.5"/>
+  <path d="M33 32 C33 28 37 24 40 24 C43 24 47 28 47 32 C47 36 43 40 40 40 C37 40 33 36 33 32Z" fill="#FF9900" opacity="0.2"/>
+  <path d="M36 29 L40 25 L44 29" stroke="#FF9900" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 25 L40 39" stroke="#FF9900" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 44 L52 44" stroke="#FF9900" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 48 L48 48" stroke="#FF9900" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <text x="40" y="66" font-family="Arial,sans-serif" font-size="7" font-weight="700" fill="#FF9900" text-anchor="middle">SageMaker</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <rect width="80" height="80" rx="12" fill="#232F3E"/>
+  <path d="M40 14L56 23V41L40 50L24 41V23L40 14Z" fill="none" stroke="#FF9900" stroke-width="2.5"/>
+  <path d="M40 14L40 50" stroke="#FF9900" stroke-width="1.5" opacity="0.4"/>
+  <path d="M24 23L56 41" stroke="#FF9900" stroke-width="1.5" opacity="0.4"/>
+  <path d="M56 23L24 41" stroke="#FF9900" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="40" cy="32" r="6" fill="#FF9900" opacity="0.9"/>
+  <text x="40" y="66" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#FF9900" text-anchor="middle">Bedrock</text>
+</svg>

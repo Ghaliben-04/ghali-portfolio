@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Fond blanc -->
+  <rect width="200" height="200" rx="12" fill="white"/>
+  
+  <!-- Arc gauche (laurier) -->
+  <path d="M30 170 C5 130 5 70 30 30" stroke="#2d7a2d" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Feuilles gauche -->
+  <ellipse cx="22" cy="145" rx="9" ry="4" fill="#2d7a2d" transform="rotate(-35 22 145)"/>
+  <ellipse cx="15" cy="120" rx="9" ry="4" fill="#2d7a2d" transform="rotate(-55 15 120)"/>
+  <ellipse cx="13" cy="95"  rx="9" ry="4" fill="#2d7a2d" transform="rotate(-70 13 95)"/>
+  <ellipse cx="17" cy="70"  rx="9" ry="4" fill="#2d7a2d" transform="rotate(-80 17 70)"/>
+  <ellipse cx="26" cy="50"  rx="9" ry="4" fill="#2d7a2d" transform="rotate(-90 26 50)"/>
+  
+  <!-- Arc droit (laurier) -->
+  <path d="M170 170 C195 130 195 70 170 30" stroke="#2d7a2d" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Feuilles droite -->
+  <ellipse cx="178" cy="145" rx="9" ry="4" fill="#2d7a2d" transform="rotate(35 178 145)"/>
+  <ellipse cx="185" cy="120" rx="9" ry="4" fill="#2d7a2d" transform="rotate(55 185 120)"/>
+  <ellipse cx="187" cy="95"  rx="9" ry="4" fill="#2d7a2d" transform="rotate(70 187 95)"/>
+  <ellipse cx="183" cy="70"  rx="9" ry="4" fill="#2d7a2d" transform="rotate(80 183 70)"/>
+  <ellipse cx="174" cy="50"  rx="9" ry="4" fill="#2d7a2d" transform="rotate(90 174 50)"/>
+
+  <!-- Étoile à 5 branches (pentagone étoile) -->
+  <polygon
+    points="100,20 118,70 168,70 128,100 143,150 100,122 57,150 72,100 32,70 82,70"
+    fill="#4caf50"
+    stroke="#2d7a2d"
+    stroke-width="1.5"
+  />
+  <!-- Centre étoile (ombre) -->
+  <polygon
+    points="100,42 112,76 148,76 120,97 131,132 100,112 69,132 80,97 52,76 88,76"
+    fill="#2d7a2d"
+  />
+
+  <!-- Texte OCP -->
+  <text x="100" y="192" font-family="'Arial Black', Impact, sans-serif" font-size="38" font-weight="900" fill="#1b5e20" text-anchor="middle" letter-spacing="3">OCP</text>
+</svg>
